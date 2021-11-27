@@ -4,6 +4,9 @@ from python_2_0_fizzbuzz import fizzbuzz
 from python_2_1_len import new_len
 from python_2_2_chars_count import chars_count
 from python_2_3_distinct_words import distinct_words
+from python_2_4_print_lower_5 import print_lower_5
+from python_2_5_lists_merge import lists_merge
+from python_2_6_divisors import divisors
 
 
 class Tests(unittest.TestCase):
@@ -36,3 +39,12 @@ class Tests(unittest.TestCase):
 
     def test_2_3_distinct_words(self):
         assert ['black', 'green', 'red', 'white'] == distinct_words(['red', 'white', 'black', 'red', 'green', 'black'])
+
+    def test_2_4_print_lower_5(self):
+        assert "1 2 3" == print_lower_5([11, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89])
+
+    def test_2_5_lists_merge(self):
+        assert [1, 2, 3, 5, 8, 13] == lists_merge([1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13])
+
+    def test_2_6_lists_merge(self):
+        assert [1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60] == divisors(60)

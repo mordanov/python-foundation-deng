@@ -16,7 +16,3 @@ def dict_unique_values(value: list) -> list:
 
 if __name__ == '__main__':
     main()
-
-
-def main():
-    print(convert_tuple((4, 8, 15, 16, 23, 42)))

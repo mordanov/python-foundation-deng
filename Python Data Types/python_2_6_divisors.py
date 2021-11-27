@@ -1,6 +1,3 @@
-import math
-
-
 def main():
     n = input("Enter your number:")
     print(divisors(int(n)))

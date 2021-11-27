@@ -4,7 +4,7 @@ def main():
     print(chars_count("Everywhere the child went"))
     print(chars_count("The little lamb was sure to go"))
     print(chars_count('Oh, it is python'))
-    print(chars_count(""))
+    print(chars_count("Hello"))
 
 
 def chars_count(value: str) -> dict:

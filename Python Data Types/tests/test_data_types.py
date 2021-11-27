@@ -1,10 +1,10 @@
 import unittest
-from python_2_1_fizzbuzz import fizzbuzz
+from python_2_0_fizzbuzz import fizzbuzz
 
 
 class Tests(unittest.TestCase):
 
-    def test_2_1_fizzbuzz(self):
+    def test_2_0_fizzbuzz(self):
         assert "FizzBuzz" == fizzbuzz(15)
         assert "Fizz" == fizzbuzz(3)
         assert "Buzz" == fizzbuzz(5)
